@@ -134,6 +134,25 @@
       border-radius:2px;background:rgba(108,99,255,.4);transform:rotate(45deg);
     }
 
+    /* ── GIT ACTIVITY ── */
+    .git-activity{
+      max-width:800px;margin:48px auto 0;text-align:center;
+    }
+    .git-activity-label{
+      font-size:.95rem;color:var(--muted);margin-bottom:16px;font-weight:600;
+      display:flex;align-items:center;justify-content:center;gap:8px;
+    }
+    .git-activity-label .dot{
+      width:8px;height:8px;border-radius:50%;background:var(--accent);
+      display:inline-block;animation:pulse 2s infinite;
+    }
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+    .git-activity img{
+      width:100%;border-radius:var(--radius);
+      border:1px solid rgba(108,99,255,.15);
+      box-shadow:0 8px 40px rgba(108,99,255,.08);
+    }
+
     /* ── SKILLS ── */
     .skills-container{max-width:900px;margin:0 auto}
     .skill-group{margin-bottom:36px}
@@ -384,6 +403,10 @@
       </ul>
     </div>
   </div>
+  <div class="git-activity fade-up">
+    <div class="git-activity-label"><span class="dot"></span> Git Activity at Sprinklr</div>
+    <img src="git_activity.png" alt="Git contribution activity at Sprinklr" />
+  </div>
 </section>
 
 <!-- SKILLS -->
@@ -581,10 +604,10 @@
       <span class="c-label">Email</span>
       <span class="c-value">abbatta567@gmail.com</span>
     </a>
-    <a href="tel:+919877322103" class="contact-card">
+    <a href="tel:+916280827546" class="contact-card">
       <span class="c-icon">&#9743;</span>
       <span class="c-label">Phone</span>
-      <span class="c-value">+91 9877322103</span>
+      <span class="c-value">+91 6280827546</span>
     </a>
     <a href="https://gitlab.com/abbatta7" target="_blank" rel="noopener noreferrer" class="contact-card">
       <span class="c-icon">&#128736;</span>
